@@ -12,7 +12,6 @@
     <title>@ViewData["Title"]</title>
     <style>
         body {
-            font-family: Arial, sans-serif; 
             margin: 0;
             padding: 0;
             background-color: #f8f9fa;
@@ -61,16 +60,30 @@
         .actions a:hover {
             color: #0056b3;
         }
+
+        .btn-cta {
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            width: 20%;
+        }
+
+        button {
+            border-radius: 7px;
+        }
+
     </style>
 </head>
 <body>
 
 <div class="Main"> 
-    <h1>Index</h1>
+    @* <h1>Dashboard</h1> *@
 
-    <p>
-        <a asp-action="Create" style="text-decoration: none; color: #007bff; font-weight: bold;">Create New</a>
-    </p>
+    <div class="btn-cta">
+        <button onclick="location.href='@Url.Action("Create")'"> Create New </button>
+        <button> Add Loan </button>
+    </div>
+
     <table>
         <thead>
             <tr>

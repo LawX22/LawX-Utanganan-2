@@ -16,7 +16,6 @@
 
 <div class="container">
     <h1>Create</h1>
-    <h4>ClientInfo</h4>
     <hr />
     <div class="row">
         <div class="col-md-4">
@@ -24,9 +23,9 @@
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                  <div class="form-group">
-                <label asp-for="UserType">User Type:</label>
-                <input asp-for="UserType" type="text" />
-                <span asp-validation-for="UserType" class="text-danger"></span>
+                    <label asp-for="UserType" class="control-label"label></label>
+                    <input asp-for="UserType" class="form-control" />
+                    <span asp-validation-for="UserType" class="text-danger"></span>
                 </div>
            
                 <div class="form-group">
