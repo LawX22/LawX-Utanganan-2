@@ -3457,6 +3457,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.0",
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0"
     ]
@@ -3468,11 +3469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan\\LawX-Utanganan.csproj",
+      "projectUniqueName": "c:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\LawX-Utanganan.csproj",
       "projectName": "LawX-Utanganan",
-      "projectPath": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan\\LawX-Utanganan.csproj",
+      "projectPath": "c:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\LawX-Utanganan.csproj",
       "packagesPath": "C:\\Users\\FOR CLONE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan\\obj\\",
+      "outputPath": "c:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3506,6 +3507,12 @@
         "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.0, )"
           },

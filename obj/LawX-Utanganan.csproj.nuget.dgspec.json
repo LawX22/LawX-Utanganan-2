@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan\\LawX-Utanganan.csproj": {}
+    "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\LawX-Utanganan.csproj": {}
   },
   "projects": {
-    "c:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan\\LawX-Utanganan.csproj": {
+    "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\LawX-Utanganan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan\\LawX-Utanganan.csproj",
+        "projectUniqueName": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\LawX-Utanganan.csproj",
         "projectName": "LawX-Utanganan",
-        "projectPath": "c:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan\\LawX-Utanganan.csproj",
+        "projectPath": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\LawX-Utanganan.csproj",
         "packagesPath": "C:\\Users\\FOR CLONE\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan\\obj\\",
+        "outputPath": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,12 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
             },
