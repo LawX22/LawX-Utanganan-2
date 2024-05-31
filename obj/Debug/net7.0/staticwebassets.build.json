@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jf5sxnUwan11APXF2x2+UJDW/IRT42yYQcuh8XI3Hz4=",
+  "Hash": "vXadnc/7zYYZVGJOmKUC5s2OpqgE7HNzbvL5K70kJ60=",
   "Source": "LawX-Utanganan",
   "BasePath": "_content/LawX-Utanganan",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\LawX-Utanganan.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\css\\home.css",
+      "SourceId": "LawX-Utanganan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\",
+      "BasePath": "_content/LawX-Utanganan",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
       "Identity": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\css\\site.css",
       "SourceId": "LawX-Utanganan",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\img\\bank.jpg",
+      "SourceId": "LawX-Utanganan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\",
+      "BasePath": "_content/LawX-Utanganan",
+      "RelativePath": "img/bank.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bank.jpg"
     },
     {
       "Identity": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\js\\site.js",

@@ -10,6 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-**********************" crossorigin="anonymous" />
     <style>
         body {
             margin: 0;
@@ -121,9 +122,9 @@
                     <td>@Html.DisplayFor(modelItem => item.Religion)</td>
                     <td>@Html.DisplayFor(modelItem => item.Occupation)</td>
                     <td class="actions">
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                        <a asp-action="Details" asp-route-id="@item.Id">Details</a>
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="button"><i class="fas fa-edit"></i></a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="button"><i class="fas fa-info-circle"></i></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="button"><i class="fas fa-trash-alt"></i></a>
                     </td>
                 </tr>
             }
