@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('/img/bank.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* -------------- Container -------------- */
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  
+  .title{
+    background: rgba(240, 145, 216, 0.308);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(37, 7, 26, 0.5);
+  }
+  .title {
+    margin-top: 40vh;
+    padding-top: 6vh;
+    text-align: center;
+    height: 30vh;
+    width: 55%;
+    font-family: "Orbitron", sans-serif;
+  }
+  
+  .title p {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .greet h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .greet{
+    color: rgb(70, 9, 77);
+  }
+  
+  .button-join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .button-join button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-join button:hover {
+    background-color: #45a049;
+  }
