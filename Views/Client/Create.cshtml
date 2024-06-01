@@ -15,124 +15,122 @@
 </head>
 <body>
 
-<div class="container">
-    <h1>Create</h1>
+<div class="main container-fluid px-5 py-4">
+    <h2>Create</h2>
     <hr />
-    <div class="row">
-        <div class="col-md-6">
-            <form asp-action="Create">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="input-fields">
+        <div class="row">
+            <div class="col">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="UserType"></label>
-                            <input asp-for="UserType"/>
-                            <span asp-validation-for="UserType" class="text-danger"></span>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="UserType"></label>
+                                <input asp-for="UserType"/>
+                                <span asp-validation-for="UserType" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="FirstName" class="control-label"></label>
+                                <input asp-for="FirstName" />
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="MiddleName" class="control-label"></label>
+                                <input asp-for="MiddleName" />
+                                <span asp-validation-for="MiddleName" class="text-danger"></span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="FirstName" class="control-label"></label>
-                            <input asp-for="FirstName" />
-                            <span asp-validation-for="FirstName" class="text-danger"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="MiddleName" class="control-label"></label>
-                            <input asp-for="MiddleName" />
-                            <span asp-validation-for="MiddleName" class="text-danger"></span>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="LastName" class="control-label"></label>
-                            <input asp-for="LastName" />
-                            <span asp-validation-for="LastName" class="text-danger"></span>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="LastName" class="control-label"></label>
+                                <input asp-for="LastName" />
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="Address" class="control-label"></label>
+                                <input asp-for="Address" />
+                                <span asp-validation-for="Address" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="ZipCode" class="control-label"></label>
+                                <input asp-for="ZipCode" />
+                                <span asp-validation-for="ZipCode" class="text-danger"></span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="Address" class="control-label"></label>
-                            <input asp-for="Address" />
-                            <span asp-validation-for="Address" class="text-danger"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="ZipCode" class="control-label"></label>
-                            <input asp-for="ZipCode" />
-                            <span asp-validation-for="ZipCode" class="text-danger"></span>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="Birthdate" class="control-label"></label>
-                            <input asp-for="Birthdate" id="Birthdate" />
-                            <span asp-validation-for="Birthdate" class="text-danger"></span>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="Birthdate" class="control-label"></label>
+                                <input asp-for="Birthdate" id="Birthdate" />
+                                <span asp-validation-for="Birthdate" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="Age" class="control-label"></label>
+                                <input asp-for="Age" readonly />
+                                <span asp-validation-for="Age" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="NameOfFather" class="control-label"></label>
+                                <input asp-for="NameOfFather" />
+                                <span asp-validation-for="NameOfFather" class="text-danger"></span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="Age" class="control-label"></label>
-                            <input asp-for="Age" readonly />
-                            <span asp-validation-for="Age" class="text-danger"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="NameOfFather" class="control-label"></label>
-                            <input asp-for="NameOfFather" />
-                            <span asp-validation-for="NameOfFather" class="text-danger"></span>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="NameOfMother" class="control-label"></label>
-                            <input asp-for="NameOfMother" />
-                            <span asp-validation-for="NameOfMother" class="text-danger"></span>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="NameOfMother" class="control-label"></label>
+                                <input asp-for="NameOfMother" />
+                                <span asp-validation-for="NameOfMother" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="CivilStatus" class="control-label"></label>
+                                <input asp-for="CivilStatus" />
+                                <span asp-validation-for="CivilStatus" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="Religion" class="control-label"></label>
+                                <input asp-for="Religion" />
+                                <span asp-validation-for="Religion" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label asp-for="Occupation" ></label>
+                                <input asp-for="Occupation" />
+                                <span asp-validation-for="Occupation" class="text-danger"></span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="CivilStatus" class="control-label"></label>
-                            <input asp-for="CivilStatus" />
-                            <span asp-validation-for="CivilStatus" class="text-danger"></span>
-                        </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" />
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="Religion" class="control-label"></label>
-                            <input asp-for="Religion" />
-                            <span asp-validation-for="Religion" class="text-danger"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label asp-for="Occupation" class="control-label"></label>
-                            <input asp-for="Occupation" />
-                            <span asp-validation-for="Occupation" class="text-danger"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <input type="submit" value="Create" />
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
 
@@ -140,6 +138,7 @@
         <a asp-action="Index">Back to List</a>
     </div>
 </div>
+
 
 
 
