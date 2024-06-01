@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/client-create.css">
 </head>
 <body>
 
@@ -18,78 +19,118 @@
     <h1>Create</h1>
     <hr />
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <form asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-                 <div class="form-group">
-                    <label asp-for="UserType" class="control-label"label></label>
-                    <input asp-for="UserType" class="form-control" />
-                    <span asp-validation-for="UserType" class="text-danger"></span>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="UserType"></label>
+                            <input asp-for="UserType"/>
+                            <span asp-validation-for="UserType" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="FirstName" class="control-label"></label>
+                            <input asp-for="FirstName" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="MiddleName" class="control-label"></label>
+                            <input asp-for="MiddleName" />
+                            <span asp-validation-for="MiddleName" class="text-danger"></span>
+                        </div>
+                    </div>
                 </div>
-           
-                <div class="form-group">
-                    <label asp-for="FirstName" class="control-label"></label>
-                    <input asp-for="FirstName" class="form-control" />
-                    <span asp-validation-for="FirstName" class="text-danger"></span>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="LastName" class="control-label"></label>
+                            <input asp-for="LastName" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Address" class="control-label"></label>
+                            <input asp-for="Address" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="ZipCode" class="control-label"></label>
+                            <input asp-for="ZipCode" />
+                            <span asp-validation-for="ZipCode" class="text-danger"></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label asp-for="MiddleName" class="control-label"></label>
-                    <input asp-for="MiddleName" class="form-control" />
-                    <span asp-validation-for="MiddleName" class="text-danger"></span>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Birthdate" class="control-label"></label>
+                            <input asp-for="Birthdate" id="Birthdate" />
+                            <span asp-validation-for="Birthdate" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Age" class="control-label"></label>
+                            <input asp-for="Age" readonly />
+                            <span asp-validation-for="Age" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="NameOfFather" class="control-label"></label>
+                            <input asp-for="NameOfFather" />
+                            <span asp-validation-for="NameOfFather" class="text-danger"></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label asp-for="LastName" class="control-label"></label>
-                    <input asp-for="LastName" class="form-control" />
-                    <span asp-validation-for="LastName" class="text-danger"></span>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="NameOfMother" class="control-label"></label>
+                            <input asp-for="NameOfMother" />
+                            <span asp-validation-for="NameOfMother" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="CivilStatus" class="control-label"></label>
+                            <input asp-for="CivilStatus" />
+                            <span asp-validation-for="CivilStatus" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Religion" class="control-label"></label>
+                            <input asp-for="Religion" />
+                            <span asp-validation-for="Religion" class="text-danger"></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label asp-for="Address" class="control-label"></label>
-                    <input asp-for="Address" class="form-control" />
-                    <span asp-validation-for="Address" class="text-danger"></span>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Occupation" class="control-label"></label>
+                            <input asp-for="Occupation" />
+                            <span asp-validation-for="Occupation" class="text-danger"></span>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="form-group">
-                    <label asp-for="ZipCode" class="control-label"></label>
-                    <input asp-for="ZipCode" class="form-control" />
-                    <span asp-validation-for="ZipCode" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Birthdate" class="control-label"></label>
-                    <input asp-for="Birthdate" class="form-control" id="Birthdate" />
-                    <span asp-validation-for="Birthdate" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Age" class="control-label"></label>
-                    <input asp-for="Age" class="form-control" readonly />
-                    <span asp-validation-for="Age" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="NameOfFather" class="control-label"></label>
-                    <input asp-for="NameOfFather" class="form-control" />
-                    <span asp-validation-for="NameOfFather" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="NameOfMother" class="control-label"></label>
-                    <input asp-for="NameOfMother" class="form-control" />
-                    <span asp-validation-for="NameOfMother" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="CivilStatus" class="control-label"></label>
-                    <input asp-for="CivilStatus" class="form-control" />
-                    <span asp-validation-for="CivilStatus" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Religion" class="control-label"></label>
-                    <input asp-for="Religion" class="form-control" />
-                    <span asp-validation-for="Religion" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Occupation" class="control-label"></label>
-                    <input asp-for="Occupation" class="form-control" />
-                    <span asp-validation-for="Occupation" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <input type="submit" value="Create" class="btn btn-primary" />
+                    <input type="submit" value="Create" />
                 </div>
             </form>
         </div>
@@ -99,6 +140,8 @@
         <a asp-action="Index">Back to List</a>
     </div>
 </div>
+
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

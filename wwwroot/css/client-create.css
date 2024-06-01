@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container {
+    border: 1px solid red;
+}
+
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"] {
+    width: 100%; /* Make text inputs fill their container */
+    padding: 10px; /* Add padding inside text inputs */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in width */
+    height: 40px; /* Set a fixed height for all input fields */
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default focus outline */
+}
+

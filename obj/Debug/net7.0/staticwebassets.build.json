@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vXadnc/7zYYZVGJOmKUC5s2OpqgE7HNzbvL5K70kJ60=",
+  "Hash": "teG7unTtw2B/JMF30E3BwQh9b04mG6lkllcsDnyfFV0=",
   "Source": "LawX-Utanganan",
   "BasePath": "_content/LawX-Utanganan",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\LawX-Utanganan.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\css\\client-create.css",
+      "SourceId": "LawX-Utanganan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\",
+      "BasePath": "_content/LawX-Utanganan",
+      "RelativePath": "css/client-create.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\client-create.css"
     },
     {
       "Identity": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\css\\home.css",

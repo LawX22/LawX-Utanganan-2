@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\LawX-Utanganan.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\css\\client-create.css",
+      "PackagePath": "staticwebassets\\css\\client-create.css"
+    },
+    {
       "Id": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
