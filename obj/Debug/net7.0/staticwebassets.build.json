@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "teG7unTtw2B/JMF30E3BwQh9b04mG6lkllcsDnyfFV0=",
+  "Hash": "3XCrapO51yTZpi9mqzWDY6qcH/VQ8V4ga3JFM+cNK7U=",
   "Source": "LawX-Utanganan",
   "BasePath": "_content/LawX-Utanganan",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\css\\user-index.css",
+      "SourceId": "LawX-Utanganan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\",
+      "BasePath": "_content/LawX-Utanganan",
+      "RelativePath": "css/user-index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\user-index.css"
     },
     {
       "Identity": "C:\\Users\\FOR CLONE\\Desktop\\LawX-Utanganan-2\\wwwroot\\favicon.ico",
